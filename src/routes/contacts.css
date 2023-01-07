@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+} */
+
+.contact-body{
+  background: url('../assets/fooda.jpeg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-30%, -45%);
+  width: 370px;
+  max-width: 550px;
+  background: rgba(238, 228, 228, 0.8);
+  padding: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(39, 37, 37, 0.3);
+}
+
+.wrapper .title h1{
+  color: #1f2122;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #090d0e;
+  padding: 10px;
+  color: #150203;
+  width: 100%;
+}
+
+
+.btn {
+    background: #0c0e0f;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 250px 0px 80px ;
+   
+   
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}

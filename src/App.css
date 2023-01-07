@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  
+ 
+}
+
+img{
+  height: 80vh;
+  width: 100%;
+  
+}
+
+
+.header a{
+ color: inherit;
+ text-decoration: none;
+ word-spacing: 5px; 
+ gap: 2rem;
+}
+
+.header ul{
+  padding: 5px 0px;
+  text-align: right;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header{
+  height: 70px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding : 0 4rem;
+}
+
+

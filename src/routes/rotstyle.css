@@ -1,0 +1,113 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.menu-title{
+    margin: 20px;
+    font-size: 50px;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    align-items: center;
+        
+}
+
+.container{
+        height:300px;
+        width: 250px;
+        /* padding:20px; */
+        margin:40px;
+        border-radius:15px;
+        border: 1px solid gainsboro;
+        background-color:rgb(245, 250, 248);
+        
+        
+    
+}
+
+.food-image{
+    border-radius: 15px;
+    height:200px;
+    width:245px;
+}
+
+.heading{
+    font-size: 40px;
+}
+.text{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-image{
+    height: 600px;
+    width: 100%;
+}
+
+.image{
+    height: 50px;
+    width: 60px;
+    float: left;
+    margin: 12px 15px 15px 6px;
+}
+
+.text-containeer{
+    position: relative;
+    text-align: left;
+    color: black;
+}
+.text1{
+    position: absolute;
+    bottom: 330px;
+    left: 46px;
+    font-style: Georgia;
+    font-size: 80px;
+}
+.text2{
+    position: absolute;
+    bottom: 280px;
+    left: 50px;
+    font-style: Georgia;
+    font-size: 30px;
+}
+.button{
+    background-color: #464a46;
+    position: absolute;
+    
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 400px 50px;
+    cursor: pointer;
+}
+
+.image2{
+    padding: 0px 0px  ;
+    margin: 0px 100px 0px -300px
+   
+}
+
+.footer-text2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}  
+.hcontain{
+    background: rgb(255, 251, 251);
+    padding: 90px 50px;
+    margin: 10px;
+    width: 1410px;
+}
+
+
+.menu-container{
+    cursor: pointer;
+}
